@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(rgb(235, 182, 69),rgb(192, 133, 5),rgb(0, 10, 153),rgb(6, 60, 177),rgb(5, 158, 64),rgb(0, 73, 28));
+}
+
+h1{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(black,rgb(83, 53, 8),rgb(243, 198, 75),rgb(255, 255, 255),rgb(243, 198, 75),rgb(83, 53, 8),black);
+    width: 65%;
+    border-radius: 100px;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    font-size: 20.5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+    margin: 10px;
+}
+
+img{
+    width: 600px;
+    width: 30%;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+hr{
+    width: 65%;
+    height: 15px;
+    background: linear-gradient(black,rgb(83, 53, 8),rgb(243, 198, 75),rgb(255, 255, 255),rgb(243, 198, 75),rgb(83, 53, 8),black);
+    border-radius: 90px;
+}
+
+.blocklogo{
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.blockimages{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.endblock{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+#zeldavid{
+    height: 650px;
+    width: auto;
+    border-radius: 70px;
+    display: block;
+    margin: auto;
+}
