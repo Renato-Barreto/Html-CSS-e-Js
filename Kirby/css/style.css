@@ -1,0 +1,135 @@
+body{
+    background: linear-gradient(rgb(240, 79, 106),rgb(235, 29, 64),rgb(240, 79, 106));
+}
+
+.titulo{
+    background: linear-gradient(rgb(17, 0, 170),rgb(19, 0, 187),rgb(17, 0, 170));
+    border-radius: 70px;
+    width: 40%;
+    height: 360px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo h1{
+    color: rgb(255, 196, 0);
+    font-family: cursive;
+    text-align: center;
+    background: none;
+}
+
+.kirbyvid{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.kirbyvid video{
+    width: auto;
+}
+
+.kirbyscreen{
+    width: 320px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.kirbyscreen img{
+    width: 330px;
+    height: 290px;
+}
+
+.kirbystar{
+    background-image: url(/images/Dream_Land.webp);
+    background-size: contain;
+    margin: auto;
+    width: 49.7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.kirbystar img{
+    width: 390px;
+    height: 300px;
+}
+
+.kirbystar button{
+    width: 100px;
+    font-family: cursive;
+    font-size: 17px;
+    border-radius: 7px;
+    background: pink;
+    color: rgb(49, 0, 49);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.kirbystar button:hover{
+    background: rgb(49, 0, 49);
+    color: pink;
+
+}
+
+.kirbyfl{
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(255, 196, 0);
+    background: linear-gradient(rgb(14, 0, 145),rgb(21, 0, 209),rgb(14, 0, 145));
+    border-radius: 70px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kirbyfl img{
+    width: 50%;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 196, 0);
+    background: linear-gradient(rgb(17, 0, 170),rgb(19, 0, 187),rgb(17, 0, 170));
+    font-family: cursive;
+    border-radius: 80px;
+    width: 40%;
+}
+
+hr{
+    width: 55%;
+    height: 10px;
+    background: linear-gradient(rgb(26, 26, 240),rgb(0, 0, 107),rgb(26, 26, 240));
+    border-radius: 70px;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    color: rgb(0, 0, 107);
+    background: linear-gradient(rgb(209, 143, 0),rgb(255, 196, 0),rgb(209, 143, 0));
+    height: auto;
+    width: 55%;
+    margin: auto;
+    border-radius: 40px;
+}
+
+video{
+    height: 700px;
+}
