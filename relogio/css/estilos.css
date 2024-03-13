@@ -1,0 +1,37 @@
+body{
+    background:url('/images/dc.jpg'); /*/utilizar imagem/*/
+    background-size: cover; /*/ tamanho adaptavel/*/
+    background-attachment: fixed; /*/imagem fixa/*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    width: 400px; /*/largura/*/
+    height: 150px; /*/altura/*/
+    background: rgba(145, 0, 0, 0.377); /*/transparência/*/
+    border-radius: 18px;
+    box-shadow: 3px 3px 10px white ; /*/ y-cima e baixo / x-esquerda e direita / enevoamento / cor /*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /*/espaçamento interno/*/
+}
+
+.central div{
+    width: 120px;
+    height: 120px;
+    background: black;
+    color: white;
+    font-size: 80px;
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central span{
+    font-size: 80px;
+}
