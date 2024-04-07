@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <img src="images/role-playing-game.png">
+    
+    <div class="intro">
+        <span>Bem-Vindo ao RPG Ranking List <br><br></span>
+        <span>Eu sou um bardo viajante, e guio pessoas a descobrirem <br> quem elas realmente são de verdade</span>
+        <br>
+        <video src="arquivos/VideoMedieval.mp4" controls autoplay loop></video>
+        <br>
+        <span>Aqui você verá todas as suas habilidades e afinidades com seus aspectos de batalha</span>
+        <br><br>
+    </div>
+
+
+    <div class="requisitos">
+        <span>Qualifique suas habilidades de 1 a 10</span>
+        <br>
+        <input type="text" id="Forca" placeholder="Força Física">
+        <input type="text" id="Inteligencia" placeholder="Inteligência">
+        <input type="text" id="Agilidade" placeholder="Agilidade">
+        <input type="text" id="Poder" placeholder="Poder">
+        <br>
+        <button id="Calcular">Calcular</button>
+        <span>Resultado será gerado abaixo</span>
+    </div>
+    
+    <br><br>
+    <span class="result" id="Resultado"></span>
+    <br>
+    
+    <div class="resultado" id="resultadoFundo">
+        <img src="" id="FiguraM">
+        <img src="" id="FiguraF">
+    </div>
+    <span class="descricao" id="Descricao"></span>
+    <br><br><br><br>
+
+    <script src="js/rpg.js"></script>
+</body>
+</html>

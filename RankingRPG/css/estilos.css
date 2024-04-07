@@ -1,0 +1,129 @@
+body{
+    background: linear-gradient(rgb(2, 198, 247),green,rgb(217, 255, 0),rgb(255, 81, 0));
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body img{
+    height: 300px;
+    width: 300px;
+}
+
+body span{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+
+.intro video{
+    height: 400px;
+    width: auto;
+}
+
+.intro{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.intro span{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.requisitos{
+    background: linear-gradient(darkgreen,yellowgreen,darkgreen);
+    height: 350px;
+    width: 480px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.requisitos span{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.requisitos input{
+    height: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: black;
+    background: white;
+    transition: 0.5s;
+}
+
+.requisitos button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: darkgreen;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.requisitos button:hover{
+    color: black;
+    background: white;
+    text-shadow: 2px 2px white;
+}
+
+.resultado{
+    background: none;
+}
+
+.resultadoFeito{
+    background: linear-gradient(rgb(255, 0, 0),rgb(243, 146, 0),rgb(255, 0, 0));
+    height: 250px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.resultadoFeito img{
+    height: 150px;
+    width: 150px;
+}
+
+.result{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(255, 0, 0);
+}
+
+.descricao{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(255, 0, 0);
+
+}
